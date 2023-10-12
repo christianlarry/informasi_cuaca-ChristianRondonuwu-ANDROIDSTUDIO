@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#86934B</color>
+    <color name="primaryColor">#E1F198</color>
+    <color name="primaryDarkColor">#B9CC64</color>
+    <color name="white">#F4F5F8</color>
+    <color name="gray">#707070</color>
+    <color name="gray75">#BFD9D9D9</color>
+    <color name="lightgray">#CACACA</color>
+    <color name="modalContainerBg">#CC000000</color>
+</resources>

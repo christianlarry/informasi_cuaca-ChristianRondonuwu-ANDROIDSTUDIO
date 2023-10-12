@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="translucent_margin_top">32dp</dimen>
+    <dimen name="translucent_margin_bottom">24dp</dimen>
+    <dimen name="container_padding">32dp</dimen>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="50dp">
+
+    <RelativeLayout
+        android:id="@+id/suhuWrapperRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/suhuTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="80sp"
+            android:fontFamily="@font/montserrat_medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="°C"
+            android:textSize="30sp"
+            android:fontFamily="@font/montserrat_bold"
+            android:layout_toEndOf="@id/suhuTextView"
+            android:layout_marginTop="20dp"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/weatherDescWraperLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/suhuWrapperRelativeLayout"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/weatherIconImageView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search_icon"
+            android:adjustViewBounds="true"
+            android:maxWidth="50dp"
+            />
+
+        <TextView
+            android:id="@+id/weatherDescTextView"
+            android:layout_toEndOf="@id/weatherIconImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/weatherMainTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weatherDescWraperLinearLayout"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_marginTop="4dp"/>
+
+</RelativeLayout>

@@ -23,7 +23,7 @@ import kotlin.math.roundToInt
 
 class MainActivity : AppCompatActivity() {
 
-    val api_key:String = "7d6a15edadf6d08319604577b86b9931"
+    val api_key:String = "BUAT DI OPENWEATHERAPP LALU MASUKKAN DSINI"
 
     lateinit var weatherIconImageView:ImageView
     lateinit var cityNameTextView: TextView
